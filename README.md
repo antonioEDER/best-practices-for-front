@@ -52,7 +52,27 @@ BEM, metodologia CSS / convenção de nomenclatura para deixar o código front e
 .menu__item--disable {}
 ```
 
-## Boas práticas:
+## Boas práticas  BEM:
 - Não replique estrutura HTML *Ver BEM_correto.html e BEM_errado.html
 - O elemento desendente herda a descrição do bloco.
 - Usar Bloco dentro de bloco e elemento dentro de bloco.
+
+# Namespaces CSS
+- Evitar conflitos de nomes.
+- Codigo mais informativo e comunicativo.
+- Identifica as funções e responsábilidades.
+- Trás confiança nos códigos.
+- Namespaces identificadores para css.
+
+## Referencias:
+- [https://zellwk.com/blog/css-architecture-2/]
+
+```sh
+    .l-: layouts
+    .o-: objects
+    .c-: components
+    .js: JavaScript hooks
+    .is-|.has-: state classes
+    .t1|.s1: typography sizes
+    .u-: utility classes
+```
