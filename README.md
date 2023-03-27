@@ -16,18 +16,24 @@ BEM, metodologia CSS / convenção de nomenclatura para deixar o código front e
 - 2• Pilar: Elemento.
 - 3• Pilar: Modificador.
 
+```sh
+.block__element--modifier{}
+.block__element{}
+.block--modifier{}
+```
+
 ## Bem - Bloco
 - Entidade que existe por só só, é autônoma.
-- Exemplo: header, footer, checkbox.
+- Exemplo: header, container, menu, checkbox,input
 
 ```sh
 .menu {}
 ```
 
-## bEm - Elemento
+## bEm - Elemento 
 - Faz parte do bloco, elemento-filho.
 - Fica vinculado ao seu bloco de origem.
-- Exemplo: item de menu, item de lista, label de checkbox.
+- Exemplo: menu item, list item, checkbox caption, header title.
 
 ```sh
 .menu__item {}
@@ -39,7 +45,7 @@ BEM, metodologia CSS / convenção de nomenclatura para deixar o código front e
 - Ele muda aparência.
 - Varia uma propriedade.
 - Atribuir uma estado.
-- Exemplo: disabled, checked, full-width, dark.
+- Exemplo: disabled, highlighted, checked, fixed, size big,color yellow.
 
 ```sh
 .menu--dark {}
@@ -47,5 +53,6 @@ BEM, metodologia CSS / convenção de nomenclatura para deixar o código front e
 ```
 
 ## Boas práticas:
-- Não replique estrutura HTML
-
+- Não replique estrutura HTML *Ver BEM_correto.html e BEM_errado.html
+- O elemento desendente herda a descrição do bloco.
+- Usar Bloco dentro de bloco e elemento dentro de bloco.

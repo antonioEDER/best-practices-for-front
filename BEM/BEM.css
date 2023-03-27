@@ -1,0 +1,27 @@
+/* Bloco */
+.c-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Elemento */
+.c-list__item {
+    margin:  1rem 0.5rem;
+}
+
+/* Modificador */
+.c-list__link--disabled {
+    color: rgb(201, 201, 201) ;
+    pointer-events: none;
+}
+
+.c-list__link {
+    color: black;
+    text-decoration: none;
+}
+
+.c-list__link:hover {
+    text-decoration: underline;
+}
+
