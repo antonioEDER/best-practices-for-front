@@ -8,7 +8,7 @@ BEM, metodologia CSS / convenção de nomenclatura para deixar o código front e
 - [https://desenvolvimentoparaweb.com/css/bem/]
 
 ## Metodologia/Convenção BEM:
-- Convenção de nome de classes e só...
+- Convenção de nomes de classes e só...
 - Modular, flexivel.
 
 ## Os 3 pilares do BEM:
@@ -22,7 +22,7 @@ BEM, metodologia CSS / convenção de nomenclatura para deixar o código front e
 .block--modifier{}
 ```
 
-## Bem - Bloco
+## (B)em - Bloco
 - Entidade que existe por só só, é autônoma.
 - Exemplo: header, container, menu, checkbox,input
 
@@ -30,7 +30,7 @@ BEM, metodologia CSS / convenção de nomenclatura para deixar o código front e
 .menu {}
 ```
 
-## bEm - Elemento 
+## b(E)m - Elemento 
 - Faz parte do bloco, elemento-filho.
 - Fica vinculado ao seu bloco de origem.
 - Exemplo: menu item, list item, checkbox caption, header title.
@@ -40,7 +40,7 @@ BEM, metodologia CSS / convenção de nomenclatura para deixar o código front e
 .menu__link {}
 ```
 
-## beM - Modificador
+## be(M) - Modificador
 - Uma variante de um bloco ou elemento.
 - Ele muda aparência.
 - Varia uma propriedade.
@@ -73,6 +73,15 @@ BEM, metodologia CSS / convenção de nomenclatura para deixar o código front e
     .c-: components
     .js: JavaScript hooks
     .is-|.has-: state classes
-    .t1|.s1: typography sizes
     .u-: utility classes
+    .s-: scope
+    .s1|.t1: typography sizes
+        .t1 - largest font-size.
+        .t2 - second largest font-size.
+        .t3 - third largest font-size.
+        .s1 - first font-size smaller that base font-size.
+        .s2 - second font-size smaller that base font-size.
 ```
+
+## Boas práticas  Namespaces css:
+- Usar !importante somente em classes utilitárias .u-

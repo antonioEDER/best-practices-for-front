@@ -1,0 +1,9 @@
+/* Namespaces Layouts */
+.l-form {}
+.l-form__item{}
+.l-form__item--large {}
+
+/* Namespaces Utility classes */
+.u-text-left { text-align: left !important; }
+.u-text-center { text-align: center !important; }
+.u-text-right { text-align: right !important; }
