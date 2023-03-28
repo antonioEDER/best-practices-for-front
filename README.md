@@ -71,10 +71,11 @@ BEM, metodologia CSS / convenção de nomenclatura para deixar o código front e
     .l-: layouts
     .o-: objects
     .c-: components
-    .js: JavaScript hooks
-    .is-|.has-: state classes
+    .js-: JavaScript hooks // Classes manipuladas por JS // Não usar para estilo
+    .is-|.has-: state classes // Estado ou condição das classes
     .u-: utility classes
     .s-: scope
+    .qa-: QA classe para testes
     .s1|.t1: typography sizes
         .t1 - largest font-size.
         .t2 - second largest font-size.
