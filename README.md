@@ -4,9 +4,9 @@
 Documentação com exemplos criada para a equipe front-end da EULABS [https://eulabs.com.br/]
 
 Conteúdo:
-
 1- BEM, metodologia CSS / convenção de nomenclatura para deixar o código front end no padrão internacional.
 2- Namespaces CSS
+3- QuasaJS Typography
 
 # 1 - BEM css
 
@@ -93,3 +93,44 @@ Conteúdo:
 
 ## Boas práticas  Namespaces css:
 - Usar !importante somente em classes utilitárias .u-
+
+
+# 3 - QuasarJS Typography
+- Tipografia das classes css no QuasarJs
+
+## Referencias:
+- [https://quasar.dev/style/typography]
+
+```sh
+    .q- : components do quasar |
+        ex:  .q-tab-panels {
+                box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+                border-radius: 0 0 8px 8px;
+              }
+        [
+            <q-tab-panels>
+                ....
+            </q-tab-panels>
+        ]
+
+    .clr- : set color | ex: clr-white: #ffffff;
+        [
+             <q-icon color="white" /> ou
+             <q-icon class="clr-white" />
+        ]
+
+    .bcg- : set background | ex: bcg-white: #ffffff;
+        [
+             <q-btn class="bcg-white" /> ou
+             <q-pagination color="white"/>
+        ]
+
+    .text- : set style/size/align para textos | ex: text-white: #ffffff;
+        [
+            <div class="text-white text-bold">Tipo ônibus</div>
+        ]
+
+```
+
+## Boas práticas  QuasarJS Typography:
+- Quando for mudar o style do componente do quasar globalmente deve-ser seguir a tipografia do framework.

@@ -1,0 +1,179 @@
+// Quasar SCSS (& Sass) Variables
+
+$eulabs:#019d92cf;
+$bcg-eulabs:#08423ecf;
+
+$primary: #00b408;
+$secondary: #004923;
+$dark-grey: #616264;
+$light-grey: #808285;
+$white: #ffffff;
+$bcg-primary: #f5f5f5;
+$bcg-secondary: #eaeaea;
+$bcg-white: #ffffff;
+$rubro: #340d16;
+
+$box-shadow-primary: 0px 0px 29px rgba(0, 0, 0, 0.06);
+$box-shadow-secondary: 0px 3px 4px rgba(0, 0, 0, 0.06);
+
+$accent: #9c27b0;
+$dark: #1d1d1d;
+
+$positive: #00b408;
+$negative: #c10015;
+$info: #31ccec;
+
+$warning: #f2c037;
+$dark-page : #121212 !default;
+$dark      : #1d1d1d !default;
+
+$primary   : #1976D2 !default;
+$secondary : #26A69A !default;
+$accent    : #9C27B0 !default;
+
+$space-base   : 16px !default;
+$space-x-base : $space-base !default;
+$space-y-base : $space-base !default;
+
+
+
+$red : #f44336 !default;
+$red-1 : #ffebee !default;
+$red-2 : #ffcdd2 !default;
+$red-3 : #ef9a9a !default;
+$red-4 : #e57373 !default;
+$red-5 : #ef5350 !default;
+$red-6 : #f44336 !default;
+$red-7 : #e53935 !default;
+$red-8 : #d32f2f !default;
+$red-9 : #c62828 !default;
+$red-10 : #b71c1c !default;
+$red-11 : #ff8a80 !default;
+$red-12 : #ff5252 !default;
+$red-13 : #ff1744 !default;
+$red-14 : #d50000 !default;
+
+$ios-statusbar-height : 20px !default;
+
+$z-fab                : 990 !default;
+$z-side               : 1000 !default;
+$z-marginals          : 2000 !default;
+$z-fixed-drawer       : 3000 !default;
+$z-fullscreen         : 6000 !default;
+$z-menu               : 6000 !default;
+$z-top                : 7000 !default;
+$z-tooltip            : 9000 !default;
+$z-notify             : 9500 !default;
+$z-max                : 9998 !default;
+
+$shadow-color         : #000 !default;
+$shadow-transition    : box-shadow .28s cubic-bezier(.4, 0, .2, 1) !default;
+$inset-shadow         : 0 7px 9px -7px rgba($shadow-color, .7) inset !default;
+$inset-shadow-down    : 0 -7px 9px -7px rgba($shadow-color, .7) inset !default;
+
+$elevation-umbra      : rgba($shadow-color, .2) !default;
+$elevation-penumbra   : rgba($shadow-color, .14) !default;
+$elevation-ambient    : rgba($shadow-color, .12) !default;
+
+$shadow-0  : 0 0 0 $elevation-umbra, 0 0 0 $elevation-penumbra, 0 0 0 $elevation-ambient !default;
+$shadow-1  : 0 1px 3px $elevation-umbra, 0 1px 1px $elevation-penumbra, 0 2px 1px -1px $elevation-ambient !default;
+$shadow-2  : 0 1px 5px $elevation-umbra, 0 2px 2px $elevation-penumbra, 0 3px 1px -2px $elevation-ambient !default;
+$shadow-3  : 0 1px 8px $elevation-umbra, 0 3px 4px $elevation-penumbra, 0 3px 3px -2px $elevation-ambient !default;
+$shadow-4  : 0 2px 4px -1px $elevation-umbra, 0 4px 5px $elevation-penumbra, 0 1px 10px $elevation-ambient !default;
+
+// sorry for long line; we need .sass and it doesn't support multi-line list
+$shadows: ($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10, $shadow-11, $shadow-12, $shadow-13, $shadow-14, $shadow-15, $shadow-16, $shadow-17, $shadow-18, $shadow-19, $shadow-20, $shadow-21, $shadow-22, $shadow-23, $shadow-24);
+
+$shadow-up-0  : 0 0 0 $elevation-umbra, 0 0 0 $elevation-penumbra, 0 0 0 $elevation-ambient !default;
+$shadow-up-1  : 0 -1px 3px $elevation-umbra, 0 -1px 1px $elevation-penumbra, 0 -2px 1px -1px $elevation-ambient !default;
+$shadow-up-2  : 0 -1px 5px $elevation-umbra, 0 -2px 2px $elevation-penumbra, 0 -3px 1px -2px $elevation-ambient !default;
+$shadow-up-24 : 0 -11px 15px -7px $elevation-umbra, 0 -24px 38px 3px $elevation-penumbra, 0 -9px 46px 8px $elevation-ambient !default;
+
+
+$generic-border-radius          : 4px !default;
+$generic-hover-transition       : .3s cubic-bezier(.25, .8, .5, 1) !default;
+$typography-font-family         : 'Roboto', '-apple-system', 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$min-line-height                : 1.12 !default;
+
+$button-border-radius           : 3px !default;
+$button-padding                 : 4px 16px !default;
+$button-dense-padding           : .285em !default;
+$button-transition              : $generic-hover-transition !default;
+$button-font-size               : 14px !default;
+$button-line-height             : 1.715em !default;
+$button-font-weight             : 500 !default;
+$button-shadow                  : $shadow-2 !default;
+$button-shadow-active           : $shadow-5 !default;
+$button-rounded-border-radius   : 28px !default;
+$button-push-border-radius      : 7px !default;
+
+$chat-message-received-color    : #000 !default;
+$chat-message-received-bg       : $green-4 !default;
+$chat-message-sent-color        : #000 !default;
+$chat-message-sent-bg           : $grey-4 !default;
+$chat-message-avatar-size       : 48px !default;
+$chat-message-border-radius     : $generic-border-radius !default;
+$chat-message-distance          : 8px !default;
+$chat-message-text-padding      : 8px !default;
+
+$item-base-color                : $grey-5 !default;
+
+$editor-border-color            : $separator-color !default;
+$editor-border-dark-color       : $separator-dark-color !default;
+$editor-content-padding         : 10px !default;
+$editor-content-min-height      : 10em !default;
+$editor-toolbar-padding         : 4px !default;
+$editor-hr-color                : $editor-border-color !default;
+$editor-hr-dark-color           : $editor-border-dark-color !default;
+$editor-button-gutter           : 4px !default;
+
+$table-transition               : $generic-hover-transition !default;
+$table-border-radius            : $generic-border-radius !default;
+$table-box-shadow               : $shadow-2 !default;
+
+$table-border-color             : $separator-color !default;
+$table-hover-background         : rgba(0, 0, 0, .03) !default;
+$table-selected-background      : rgba(0, 0, 0, .06) !default;
+
+$table-dark-border-color        : $separator-dark-color !default;
+$table-dark-hover-background    : rgba(255, 255, 255, .07) !default;
+$table-dark-selected-background : rgba(255, 255, 255, .1) !default;
+
+$toolbar-min-height             : 50px !default;
+$toolbar-padding                : 0 12px !default;
+$toolbar-inset-size             : 58px !default;
+$toolbar-title-font-size        : 21px !default;
+$toolbar-title-font-weight      : normal !default;
+$toolbar-title-letter-spacing   : .01em !default;
+$toolbar-title-padding          : 0 12px !default;
+
+$layout-border                  : 1px solid $separator-color !default;
+$layout-shadow                  : 0 0 10px 2px rgba(0,0,0,0.2), 0 0px 10px rgba(0,0,0,0.24) !default;
+
+$menu-background                : #fff !default;
+$menu-box-shadow                : $shadow-2 !default;
+$menu-max-width                 : 95vw !default;
+
+$rating-grade-color             : $yellow !default;
+$rating-shadow                  : 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24) !default;
+
+$tooltip-color                  : #fafafa !default;
+$tooltip-background             : $grey-7 !default;
+$tooltip-padding                : 6px 10px !default;
+$tooltip-border-radius          : $generic-border-radius !default;
+$tooltip-fontsize               : 10px !default;
+$tooltip-mobile-padding         : 8px 16px !default;
+$tooltip-mobile-fontsize        : 14px !default;
+
+$option-focus-transition        : .22s cubic-bezier(0,0,.2,1) !default;
+
+$input-font-size                : 14px !default;
+$input-text-color               : rgba(0,0,0,.87) !default;
+$input-label-color              : rgba(0,0,0,.6) !default;
+$input-autofill-color           : inherit !default;
+
+$img-loading-font-size          : 50px !default;
+$img-content-position           : absolute !default;
+$img-content-padding            : 16px !default;
+$img-content-color              : #fff !default;
+$img-content-background         : rgba(0, 0, 0, .47) !default;
