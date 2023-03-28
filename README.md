@@ -1,7 +1,7 @@
 ![image description](https://storage.googleapis.com/dpw/app/uploads/2020/05/image.png)
 
 # best-practices-for-front
-Documentação com exemplos criadas para a equipe front-end da EULABS [https://eulabs.com.br/]
+Documentação com exemplos criada para a equipe front-end da EULABS [https://eulabs.com.br/]
 
 Conteúdo:
 
