@@ -1,7 +1,14 @@
 ![image description](https://storage.googleapis.com/dpw/app/uploads/2020/05/image.png)
 
-# default-BEM-for-css
-BEM, metodologia CSS / convenção de nomenclatura para deixar o código front end no padrão internacional.
+# best-practices-for-front
+Documentação com exemplos criadas para a equipe front-end da EULABS [https://eulabs.com.br/]
+
+Conteúdo:
+
+1- BEM, metodologia CSS / convenção de nomenclatura para deixar o código front end no padrão internacional.
+2- Namespaces CSS
+
+# 1 - BEM css
 
 ## Referencias:
 - [https://getbem.com/]
@@ -57,7 +64,7 @@ BEM, metodologia CSS / convenção de nomenclatura para deixar o código front e
 - O elemento desendente herda a descrição do bloco.
 - Usar Bloco dentro de bloco e elemento dentro de bloco.
 
-# Namespaces CSS
+# 2 - Namespaces CSS
 - Evitar conflitos de nomes.
 - Codigo mais informativo e comunicativo.
 - Identifica as funções e responsábilidades.
