@@ -61,7 +61,7 @@ Conteúdo:
 
 ## Boas práticas  BEM:
 - Não replique estrutura HTML *Ver BEM_correto.html e BEM_errado.html
-- O elemento desendente herda a descrição do bloco.
+- O elemento descendente herda a descrição do bloco.
 - Usar Bloco dentro de bloco e elemento dentro de bloco.
 
 # 2 - Namespaces CSS
