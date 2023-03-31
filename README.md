@@ -10,7 +10,7 @@ Conteúdo:
 
 # 1 - BEM css
 
-## Referencias:
+## Referência:
 - [https://getbem.com/]
 - [https://desenvolvimentoparaweb.com/css/bem/]
 
@@ -71,7 +71,7 @@ Conteúdo:
 - Traz confiança nos códigos.
 - Namespaces identificadores para css.
 
-## Referencias:
+## Referência:
 - [https://zellwk.com/blog/css-architecture-2/]
 
 ```sh
@@ -98,7 +98,7 @@ Conteúdo:
 # 3 - QuasarJS Namespaces & Typography
 - Tipografia e padronização das classes css no QuasarJs
 
-## Referencias:
+## Referência:
 - [https://quasar.dev/style/typography]
 
 ```sh
