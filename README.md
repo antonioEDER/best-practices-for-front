@@ -30,7 +30,7 @@ Conteúdo:
 ```
 
 ## (B)em - Bloco
-- Entidade que existe por só só, é autônoma.
+- Entidade que existe por sí só, é autônoma.
 - Exemplo: header, container, menu, checkbox,input
 
 ```sh
