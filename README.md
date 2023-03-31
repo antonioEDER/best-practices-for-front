@@ -68,7 +68,7 @@ Conteúdo:
 - Evitar conflitos de nomes.
 - Código mais informativo e comunicativo.
 - Identifica as funções e responsábilidades.
-- Trás confiança nos códigos.
+- Traz confiança nos códigos.
 - Namespaces identificadores para css.
 
 ## Referencias:
