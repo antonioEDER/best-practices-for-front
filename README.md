@@ -95,8 +95,8 @@ Conteúdo:
 - Usar !importante somente em classes utilitárias .u-
 
 
-# 3 - QuasarJS Typography
-- Tipografia das classes css no QuasarJs
+# 3 - QuasarJS Namespaces & Typography
+- Tipografia e padronização das classes css no QuasarJs
 
 ## Referencias:
 - [https://quasar.dev/style/typography]
