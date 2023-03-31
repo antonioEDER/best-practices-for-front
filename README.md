@@ -66,7 +66,7 @@ Conteúdo:
 
 # 2 - Namespaces CSS
 - Evitar conflitos de nomes.
-- Codigo mais informativo e comunicativo.
+- Código mais informativo e comunicativo.
 - Identifica as funções e responsábilidades.
 - Trás confiança nos códigos.
 - Namespaces identificadores para css.
